@@ -271,6 +271,17 @@ header .navbar ul li a:hover {
 .home .btn:hover i {
   transform: translateX(5px);
 }
+.Responsive-logo {
+  display: hidden;
+  width: 48px;
+  height:48px;
+  background-size: 37px;
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
+
 /* social icons start */
 .socials {
   position: relative;
@@ -321,6 +332,10 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
 /* social icons end */
 
 /* hero media queries starts*/
@@ -339,6 +354,10 @@ header .navbar ul li a:hover {
   }
   .home .content p span {
     font-size: 2.2rem;
+  }
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
   }
 }
 /* hero media queries ends*/
@@ -434,6 +453,10 @@ header .navbar ul li a:hover {
 .resumebtn .btn:hover i {
   transform: translateX(5px);
 }
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
   .about .row .image {
@@ -453,6 +476,10 @@ header .navbar ul li a:hover {
   }
   .about .row .content .box-container {
     gap: 0;
+  }
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
   }
 }
 /* about media queries ends*/
@@ -511,6 +538,10 @@ header .navbar ul li a:hover {
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
@@ -607,7 +638,10 @@ header .navbar ul li a:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
-
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
 /* education media queries starts*/
 @media screen and (max-width: 600px) {
   .education .box-container .box {
@@ -759,6 +793,10 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
 /* work section ends */
 
 /* awards section starts */
@@ -878,6 +916,10 @@ header .navbar ul li a:hover {
 }
 .awards .viewall .btn:hover i {
   transform: translateX(5px);
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
 }
 /* award section ends */
 
@@ -999,6 +1041,10 @@ header .navbar ul li a:hover {
 .funding .viewall .btn:hover i {
   transform: translateX(5px);
 }
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
 /* funding section ends */
 /* Research section starts */
 .research {
@@ -1117,6 +1163,10 @@ header .navbar ul li a:hover {
 }
 .research .viewall .btn:hover i {
   transform: translateX(5px);
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
 }
 /* Research section ends */
 
@@ -1248,6 +1298,10 @@ header .navbar ul li a:hover {
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -1426,6 +1480,10 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
+  }
+}
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
@@ -1549,6 +1607,10 @@ form .button-area {
   }
   .footer .box-container .box .share a {
     padding: 1.2rem;
+  }
+}
+@media  screen and (max-width: 758px) {
+  *{margin: 0;
   }
 }
 /* footer section ends */
